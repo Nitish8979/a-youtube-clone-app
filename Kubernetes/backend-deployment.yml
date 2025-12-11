@@ -14,9 +14,9 @@ spec:
     spec:
       containers:
       - name: youtube-backend
-        image: nitishdevops/youtube:latest
+        image: ghcr.io/spacecloud-xyz/simple-node-backend:latest
         ports:
         - containerPort: 5000
         env:
         - name: MONGO_URL
-          value: "mongodb://mongo:27017/youtube"
+          value: "mongodb://mongo:27017/youtube" 

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: youtube-backend
-        image: ghcr.io/spacecloud-xyz/simple-node-backend:latest
+        image: nitishdevops/youtube:latest
         ports:
         - containerPort: 5000
         env:

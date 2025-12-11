@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: youtube-backend
-        image: your-backend-image:latest
+        image: nitishdevops/youtube:latest
         ports:
         - containerPort: 5000
         env:
